@@ -1,19 +1,17 @@
 <!DOCTYPE html>
 <html>
-     <head>
-         <meta charset="UTF-8">
-         <title>Basketball Team</title>
-         <link rel="stylesheet" href="/style.css" type="text/css">
-     </head>
-     <body>
-        
-         <h1>Team Name:<%=@name%></h1>
-         <p>Coach:<%=@coach%></p>
-         <p>Point Guard: <%=@c %></p>
-         <p>Power Forward: <%=@d %></p>
-         <p>Shooting Guard: <%=@e %></p>
-         <p>Small Forward: <%=@f %></p>
-         <p>Center: <%=@g %></p>
-     </body>
-
+ <head>
+  <meta charset="UTF-8">
+  <title>Basketball Team</title>
+ </head>
+ <body>
+ <h1>Basketball Team! </h1>
+  Team Name: <%= @name %>
+  Coach: <%= @coach %>
+  Point Guard: <%=@pg %>
+  Power Forward: <%=@pf %>
+  Shooting Guard: <%=@sg %>
+  Small Forward: <%=@sf %>
+  Center: <%=@c %>
+ </body>
 </html>
