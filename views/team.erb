@@ -1,31 +1,19 @@
 <!DOCTYPE html>
 <html>
- <head>
-  <meta charset="UTF-8">
-  <title>Basketball Team</title>
-  <link rel="stylesheet" href="./public/style.css">
- </head>
+     <head>
+         <meta charset="UTF-8">
+         <title>Basketball Team</title>
+         <link rel="stylesheet" href="/style.css" type="text/css">
+     </head>
+     <body>
+        
+         <h1>Team Name:<%=@name%></h1>
+         <p>Coach:<%=@coach%></p>
+         <p>Point Guard: <%=@c %></p>
+         <p>Power Forward: <%=@d %></p>
+         <p>Shooting Guard: <%=@e %></p>
+         <p>Small Forward: <%=@f %></p>
+         <p>Center: <%=@g %></p>
+     </body>
 
- <h1> wtf </h1>
- <body>
-
-    <h1>Create a Basketball Team!</h1>
-
-    <form method="POST" action="/newteam">
-        <p>Team Name:<input type="text" name="team_name"/></p>
-        <p>Coach:<input type="text" name="coach"/></p>
-        <p>Point_gaurd:<input type="text" name="point_gaurd"/></p>
-        <p>Shooting Guard<input type="text" name="shooting_gaurd"/></p>
-        <p>Small Foward:<input type="text" name="smal_foward"/></p>
-        <p>Power foward:<input type="text" name="power_foward"/></p>
-        <p>Center:<input type="text" name="center"/></p>
-        <input type="submit" />   
-
-    </form>
- 
-
-
- </body>
 </html>
-
-

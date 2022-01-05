@@ -2,11 +2,21 @@
 
 h1 {
     text-align: center;
-    color: blueviolet;
+    color: red;
     
   }
 
 body {
 
     background-color: cornflowerblue;
+}
+
+p{
+  text-align:center
+}
+
+form {
+
+  text-align: center;
+
 }
